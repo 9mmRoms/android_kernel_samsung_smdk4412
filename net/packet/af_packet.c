@@ -2524,7 +2524,6 @@ static int packet_set_ring(struct sock *sk, struct tpacket_req *req,
 			goto out;
 	}
 
-
 	/* Detach socket from network */
 	spin_lock(&po->bind_lock);
 	was_running = po->running;
@@ -2572,7 +2571,6 @@ static int packet_set_ring(struct sock *sk, struct tpacket_req *req,
 	}
 	spin_unlock(&po->bind_lock);
 
-	
 	if (pg_vec)
 		free_pg_vec(pg_vec, order, req->tp_block_nr);
 out:
