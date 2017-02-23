@@ -116,6 +116,10 @@
 #define READ_MACADDR
 #endif /* CONFIG_MACH_P10 */
 
+#if defined(CONFIG_MACH_M0) ||defined(CONFIG_MACH_C1) ||defined(CONFIG_MACH_T0)
+#define WL11U
+#endif
+
 #ifdef CONFIG_ARCH_MSM8960
 #undef WIFI_TURNOFF_DELAY
 #define WIFI_TURNOFF_DELAY	200
