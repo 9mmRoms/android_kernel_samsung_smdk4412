@@ -370,7 +370,6 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Werror-implicit-function-declaration \
 		   -Wno-format-security \
 		   -fno-delete-null-pointer-checks \
-           -Wunused-const-variable=0 \
            -Wno-maybe-uninitialized \
            -Wno-bool-compare \
 		   -mtune=cortex-a9 \
