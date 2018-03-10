@@ -3,7 +3,7 @@
 # Linux/arm 3.0.101 Kernel Configuration
 #
 
-CONFIG_LOCALVERSION=" - BUFFCORE - 0.13 "
+CONFIG_LOCALVERSION=" - BUFFCORE - 0.14 "
 
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
