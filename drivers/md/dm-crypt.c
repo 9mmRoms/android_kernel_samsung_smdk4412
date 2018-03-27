@@ -1540,13 +1540,6 @@ static int crypt_ctr(struct dm_target *ti, unsigned int argc, char **argv)
 	unsigned int key_size;
 	unsigned long long tmpll;
 	int ret;
-	struct dm_arg_set as;
-	const char *opt_string;
-	char dummy;
-
- 	static struct dm_arg _args[] = {
- 		{0, 1, "Invalid number of feature args"},
-};
 
 	if (argc != 5) {
 		ti->error = "Not enough arguments";
